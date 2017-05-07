@@ -1,0 +1,22 @@
+{
+  "name": "SimpleRoundedButton",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleRoundedButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MasterCarl/SimpleRoundedButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MasterCarl": "carl.goedecken@student.hpi.de"
+  },
+  "source": {
+    "git": "https://github.com/MasterCarl/SimpleRoundedButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleRoundedButton/Classes/**/*"
+}

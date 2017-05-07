@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2647DB6670BB6E2F6B4FC79E005F9B /* SimpleRoundedButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7A402375F79C4324A22EDA4B22EEDD /* SimpleRoundedButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36FE88460ED91014B569930D0A07505E /* Pods-SimpleRoundedButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C0A770872878D08D7D5E67DED1E19A /* Pods-SimpleRoundedButton_Example-dummy.m */; };
+		3CB14046432FF6D4024A8F5FDEEEA3D2 /* Pods-SimpleRoundedButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EED6EEAB6650EA97D6513BD8FCA60872 /* Pods-SimpleRoundedButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6079633B160888059B862DA6562E1FB4 /* SimpleRoundedButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF90A773DF08CCBE405D19B52CD8AC /* SimpleRoundedButton-dummy.m */; };
+		683D7C4CE5BAD89757372E7418631A24 /* Pods-SimpleRoundedButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FDE00393EC488DF8E15B77FF6DB48F /* Pods-SimpleRoundedButton_Tests-dummy.m */; };
+		6DACEBA6B540347C833BB95BEE8EF111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74E3A4515390EECA65A33A9228142799 /* Pods-SimpleRoundedButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE2C4DC5B0DE25B30246AFE8A9B5EB6 /* Pods-SimpleRoundedButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		820FBBF7D009D11614D952D9ECF8DB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9BC622ED4E0E7899BE0219DECCC92696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F3CF9C2A72ED44938603DC2F895865F9 /* SimpleRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B81448C1689B967DC8E53F26DF4CFF /* SimpleRoundedButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6711BFFFB8D37C681DE191D16C764D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C2CD607B8A762D5847F85DBF699A11;
+			remoteInfo = SimpleRoundedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C0A770872878D08D7D5E67DED1E19A /* Pods-SimpleRoundedButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRoundedButton_Example-dummy.m"; sourceTree = "<group>"; };
+		0DE17ED2AB9AD890C4A1772348C5EA5E /* Pods-SimpleRoundedButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRoundedButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		13B81448C1689B967DC8E53F26DF4CFF /* SimpleRoundedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleRoundedButton.swift; sourceTree = "<group>"; };
+		1BDD89CF5CEE2D56168A756CB0A0A157 /* Pods-SimpleRoundedButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRoundedButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		29A6F793A3D291FB95072C4EBC911F06 /* Pods-SimpleRoundedButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRoundedButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		344D4B9653D8D6FAA991798CDE0AA635 /* Pods-SimpleRoundedButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRoundedButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		3757AFD01B151B9C22D87DFA56A3CA56 /* Pods-SimpleRoundedButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRoundedButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E09EBA37B9C8393770F97B8EC53CA27 /* Pods_SimpleRoundedButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRoundedButton_Example.framework; path = "Pods-SimpleRoundedButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D2D5635FCC7EBF541258E666CA5B2 /* Pods-SimpleRoundedButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRoundedButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C15CF3F965413201A59AA3C38921CE6 /* SimpleRoundedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleRoundedButton.framework; path = SimpleRoundedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5CA4D13528C0C382A764E11F7B92FF /* Pods-SimpleRoundedButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRoundedButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56FDE00393EC488DF8E15B77FF6DB48F /* Pods-SimpleRoundedButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRoundedButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		58ADDC6B6F329B3680F5B0EA0DBA97E3 /* Pods-SimpleRoundedButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRoundedButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65854603DDE7E29F00A9909DA39D4853 /* Pods-SimpleRoundedButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleRoundedButton_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677CD8CA03B061631DB6923FC24DD807 /* Pods-SimpleRoundedButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRoundedButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		68FF90A773DF08CCBE405D19B52CD8AC /* SimpleRoundedButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleRoundedButton-dummy.m"; sourceTree = "<group>"; };
+		7E8BDB65C9F76B7106AD3069453419BE /* Pods-SimpleRoundedButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRoundedButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A2E1F33486BD613D2EA895D4B65E329 /* SimpleRoundedButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleRoundedButton.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE2C4DC5B0DE25B30246AFE8A9B5EB6 /* Pods-SimpleRoundedButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRoundedButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		9F392C4C5B0A1550E786ACA70CD27A4A /* Pods-SimpleRoundedButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRoundedButton_Example-resources.sh"; sourceTree = "<group>"; };
+		B933B6AF1CF7AD4BAF783E330D2765F6 /* Pods-SimpleRoundedButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRoundedButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD8C41787F5EEB31EBCEBF2629F97FB4 /* SimpleRoundedButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleRoundedButton.xcconfig; sourceTree = "<group>"; };
+		C4CE18E369D72F1AD0F624189916E75A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2D658C963379F81CF2B9DA2423FE39 /* Pods_SimpleRoundedButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRoundedButton_Tests.framework; path = "Pods-SimpleRoundedButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8329F0102287E4658DD38C1B81F6ED /* SimpleRoundedButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRoundedButton-prefix.pch"; sourceTree = "<group>"; };
+		DF7A402375F79C4324A22EDA4B22EEDD /* SimpleRoundedButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRoundedButton-umbrella.h"; sourceTree = "<group>"; };
+		E12093EDA28C784116499E2F9A88822A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B857E1CD7EF0F415FBF2707A73081F /* Pods-SimpleRoundedButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleRoundedButton_Tests.modulemap"; sourceTree = "<group>"; };
+		EED6EEAB6650EA97D6513BD8FCA60872 /* Pods-SimpleRoundedButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRoundedButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F317172C1CF1C044EE39263CD6DC55F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9615FB5FD504275AD6648E74CB69DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820FBBF7D009D11614D952D9ECF8DB6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96B149B659902F3D49D6BD9DDDC1A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DACEBA6B540347C833BB95BEE8EF111 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82E471AEDBEF2385579991A97EE7B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC622ED4E0E7899BE0219DECCC92696 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2283783370EE36DF3A4C660CFC501DDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9B759807D53A67E3C7757442D3E2F7B /* Pods-SimpleRoundedButton_Example */,
+				25BBC04625D2135BD12ABD64A99E2F88 /* Pods-SimpleRoundedButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		25BBC04625D2135BD12ABD64A99E2F88 /* Pods-SimpleRoundedButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE18E369D72F1AD0F624189916E75A /* Info.plist */,
+				E3B857E1CD7EF0F415FBF2707A73081F /* Pods-SimpleRoundedButton_Tests.modulemap */,
+				4D5CA4D13528C0C382A764E11F7B92FF /* Pods-SimpleRoundedButton_Tests-acknowledgements.markdown */,
+				3757AFD01B151B9C22D87DFA56A3CA56 /* Pods-SimpleRoundedButton_Tests-acknowledgements.plist */,
+				56FDE00393EC488DF8E15B77FF6DB48F /* Pods-SimpleRoundedButton_Tests-dummy.m */,
+				7E8BDB65C9F76B7106AD3069453419BE /* Pods-SimpleRoundedButton_Tests-frameworks.sh */,
+				344D4B9653D8D6FAA991798CDE0AA635 /* Pods-SimpleRoundedButton_Tests-resources.sh */,
+				EED6EEAB6650EA97D6513BD8FCA60872 /* Pods-SimpleRoundedButton_Tests-umbrella.h */,
+				B933B6AF1CF7AD4BAF783E330D2765F6 /* Pods-SimpleRoundedButton_Tests.debug.xcconfig */,
+				498D2D5635FCC7EBF541258E666CA5B2 /* Pods-SimpleRoundedButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimpleRoundedButton_Tests";
+			path = "Target Support Files/Pods-SimpleRoundedButton_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8AC013007AB359C50A27672E176A13AC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E55269FC8E2FD78656B1D581912ACCE1 /* Products */,
+				2283783370EE36DF3A4C660CFC501DDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4570E3B8F311A5DA8FF536A74B4D3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13B81448C1689B967DC8E53F26DF4CFF /* SimpleRoundedButton.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8AC013007AB359C50A27672E176A13AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6F5F9965269555F98702558D7ED6FA8 /* SimpleRoundedButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB042ED8B2D2FD23518D4386C4860B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F317172C1CF1C044EE39263CD6DC55F5 /* Info.plist */,
+				8A2E1F33486BD613D2EA895D4B65E329 /* SimpleRoundedButton.modulemap */,
+				BD8C41787F5EEB31EBCEBF2629F97FB4 /* SimpleRoundedButton.xcconfig */,
+				68FF90A773DF08CCBE405D19B52CD8AC /* SimpleRoundedButton-dummy.m */,
+				DA8329F0102287E4658DD38C1B81F6ED /* SimpleRoundedButton-prefix.pch */,
+				DF7A402375F79C4324A22EDA4B22EEDD /* SimpleRoundedButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleRoundedButton";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E55269FC8E2FD78656B1D581912ACCE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E09EBA37B9C8393770F97B8EC53CA27 /* Pods_SimpleRoundedButton_Example.framework */,
+				CB2D658C963379F81CF2B9DA2423FE39 /* Pods_SimpleRoundedButton_Tests.framework */,
+				4C15CF3F965413201A59AA3C38921CE6 /* SimpleRoundedButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F5F9965269555F98702558D7ED6FA8 /* SimpleRoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				FBCAFEE48348EDD85C83BACB59D44D71 /* SimpleRoundedButton */,
+				CEB042ED8B2D2FD23518D4386C4860B5 /* Support Files */,
+			);
+			name = SimpleRoundedButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F9B759807D53A67E3C7757442D3E2F7B /* Pods-SimpleRoundedButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E12093EDA28C784116499E2F9A88822A /* Info.plist */,
+				65854603DDE7E29F00A9909DA39D4853 /* Pods-SimpleRoundedButton_Example.modulemap */,
+				58ADDC6B6F329B3680F5B0EA0DBA97E3 /* Pods-SimpleRoundedButton_Example-acknowledgements.markdown */,
+				677CD8CA03B061631DB6923FC24DD807 /* Pods-SimpleRoundedButton_Example-acknowledgements.plist */,
+				09C0A770872878D08D7D5E67DED1E19A /* Pods-SimpleRoundedButton_Example-dummy.m */,
+				0DE17ED2AB9AD890C4A1772348C5EA5E /* Pods-SimpleRoundedButton_Example-frameworks.sh */,
+				9F392C4C5B0A1550E786ACA70CD27A4A /* Pods-SimpleRoundedButton_Example-resources.sh */,
+				9BE2C4DC5B0DE25B30246AFE8A9B5EB6 /* Pods-SimpleRoundedButton_Example-umbrella.h */,
+				1BDD89CF5CEE2D56168A756CB0A0A157 /* Pods-SimpleRoundedButton_Example.debug.xcconfig */,
+				29A6F793A3D291FB95072C4EBC911F06 /* Pods-SimpleRoundedButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleRoundedButton_Example";
+			path = "Target Support Files/Pods-SimpleRoundedButton_Example";
+			sourceTree = "<group>";
+		};
+		FBCAFEE48348EDD85C83BACB59D44D71 /* SimpleRoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				8A4570E3B8F311A5DA8FF536A74B4D3D /* Classes */,
+			);
+			name = SimpleRoundedButton;
+			path = SimpleRoundedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F69EEF86F14322D2D036439B7C39DA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E3A4515390EECA65A33A9228142799 /* Pods-SimpleRoundedButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7919574DEB3E04591BB76C5B0CC0FB56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB14046432FF6D4024A8F5FDEEEA3D2 /* Pods-SimpleRoundedButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01B1EED0A9BA9B4CFBD19E36320519E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2647DB6670BB6E2F6B4FC79E005F9B /* SimpleRoundedButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1975711A92F90D8E5FF723EB29E83729 /* Pods-SimpleRoundedButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CB147B2F55658140F724C73CA53818 /* Build configuration list for PBXNativeTarget "Pods-SimpleRoundedButton_Tests" */;
+			buildPhases = (
+				EEFCE698C7686779502FD7554A78CED4 /* Sources */,
+				E82E471AEDBEF2385579991A97EE7B24 /* Frameworks */,
+				7919574DEB3E04591BB76C5B0CC0FB56 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleRoundedButton_Tests";
+			productName = "Pods-SimpleRoundedButton_Tests";
+			productReference = CB2D658C963379F81CF2B9DA2423FE39 /* Pods_SimpleRoundedButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8C2CD607B8A762D5847F85DBF699A11 /* SimpleRoundedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3C3A4E26A2F45BD83FD574C8443B4D /* Build configuration list for PBXNativeTarget "SimpleRoundedButton" */;
+			buildPhases = (
+				43F1ADE48C31ED74F271EF80D696E9E9 /* Sources */,
+				B96B149B659902F3D49D6BD9DDDC1A90 /* Frameworks */,
+				A01B1EED0A9BA9B4CFBD19E36320519E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRoundedButton;
+			productName = SimpleRoundedButton;
+			productReference = 4C15CF3F965413201A59AA3C38921CE6 /* SimpleRoundedButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD49EC84B3AAB40DBE9CCBA458B0B0DE /* Pods-SimpleRoundedButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09625E8C0E207A8E14C540EECD896452 /* Build configuration list for PBXNativeTarget "Pods-SimpleRoundedButton_Example" */;
+			buildPhases = (
+				1C2E330069A29D9C50822744D90BA1B6 /* Sources */,
+				6B9615FB5FD504275AD6648E74CB69DF /* Frameworks */,
+				3F69EEF86F14322D2D036439B7C39DA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D674220AD731A172BEE3832AB3469EA /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleRoundedButton_Example";
+			productName = "Pods-SimpleRoundedButton_Example";
+			productReference = 3E09EBA37B9C8393770F97B8EC53CA27 /* Pods_SimpleRoundedButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E55269FC8E2FD78656B1D581912ACCE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD49EC84B3AAB40DBE9CCBA458B0B0DE /* Pods-SimpleRoundedButton_Example */,
+				1975711A92F90D8E5FF723EB29E83729 /* Pods-SimpleRoundedButton_Tests */,
+				C8C2CD607B8A762D5847F85DBF699A11 /* SimpleRoundedButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2E330069A29D9C50822744D90BA1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FE88460ED91014B569930D0A07505E /* Pods-SimpleRoundedButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F1ADE48C31ED74F271EF80D696E9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6079633B160888059B862DA6562E1FB4 /* SimpleRoundedButton-dummy.m in Sources */,
+				F3CF9C2A72ED44938603DC2F895865F9 /* SimpleRoundedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFCE698C7686779502FD7554A78CED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683D7C4CE5BAD89757372E7418631A24 /* Pods-SimpleRoundedButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D674220AD731A172BEE3832AB3469EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleRoundedButton;
+			target = C8C2CD607B8A762D5847F85DBF699A11 /* SimpleRoundedButton */;
+			targetProxy = 6711BFFFB8D37C681DE191D16C764D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2273C659F8239FD41350597F18B04152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498D2D5635FCC7EBF541258E666CA5B2 /* Pods-SimpleRoundedButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRoundedButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRoundedButton_Tests/Pods-SimpleRoundedButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRoundedButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40B8F319A15CA69168634210766F3482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B933B6AF1CF7AD4BAF783E330D2765F6 /* Pods-SimpleRoundedButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRoundedButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRoundedButton_Tests/Pods-SimpleRoundedButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRoundedButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5694B0B0CBB5EF7C63C928592D6EA29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8C41787F5EEB31EBCEBF2629F97FB4 /* SimpleRoundedButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleRoundedButton/SimpleRoundedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleRoundedButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleRoundedButton/SimpleRoundedButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DEB505B1288D1FDE52A5C361D63DF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A6F793A3D291FB95072C4EBC911F06 /* Pods-SimpleRoundedButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRoundedButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRoundedButton_Example/Pods-SimpleRoundedButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRoundedButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9EC103C6718220B8845A4E7D9A67AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDD89CF5CEE2D56168A756CB0A0A157 /* Pods-SimpleRoundedButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRoundedButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRoundedButton_Example/Pods-SimpleRoundedButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRoundedButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE7CACACD81460C2630469BBAFAD70A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8C41787F5EEB31EBCEBF2629F97FB4 /* SimpleRoundedButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleRoundedButton/SimpleRoundedButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleRoundedButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleRoundedButton/SimpleRoundedButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleRoundedButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09625E8C0E207A8E14C540EECD896452 /* Build configuration list for PBXNativeTarget "Pods-SimpleRoundedButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EC103C6718220B8845A4E7D9A67AB2 /* Debug */,
+				5DEB505B1288D1FDE52A5C361D63DF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3C3A4E26A2F45BD83FD574C8443B4D /* Build configuration list for PBXNativeTarget "SimpleRoundedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5694B0B0CBB5EF7C63C928592D6EA29B /* Debug */,
+				DE7CACACD81460C2630469BBAFAD70A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CB147B2F55658140F724C73CA53818 /* Build configuration list for PBXNativeTarget "Pods-SimpleRoundedButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B8F319A15CA69168634210766F3482 /* Debug */,
+				2273C659F8239FD41350597F18B04152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

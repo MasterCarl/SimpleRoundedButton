@@ -1,0 +1,16 @@
+PODS:
+  - SimpleRoundedButton (0.1.0)
+
+DEPENDENCIES:
+  - SimpleRoundedButton (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleRoundedButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleRoundedButton: 84d2d10ec25c05395d8aa87163f82567d04f5d24
+
+PODFILE CHECKSUM: c81d51ac4085497ae973a43a88e5d701b1589239
+
+COCOAPODS: 1.2.1

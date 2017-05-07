@@ -1,0 +1,6 @@
+framework module SimpleRoundedButton {
+  umbrella header "SimpleRoundedButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

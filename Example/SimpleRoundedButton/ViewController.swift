@@ -1,12 +1,14 @@
 //
 //  ViewController.swift
-//  SimpleRoundedButton
+//  MCCustomButton
 //
-//  Created by MasterCarl on 05/07/2017.
+//  Created by MasterCarl on 05/06/2017.
 //  Copyright (c) 2017 MasterCarl. All rights reserved.
 //
 
 import UIKit
+import SimpleRoundedButton
+
 
 class ViewController: UIViewController {
 
@@ -20,5 +22,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet var animatingButton: SimpleRoundedButton!
+    
+    @IBAction func didSelectAnimatingButton(_ sender: Any) {
+        animatingButton.startAnimating()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2), execute: {
+            self.animatingButton.stopAnimating()
+        })
+    }
 }
 

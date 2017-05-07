@@ -1,0 +1,6 @@
+framework module Pods_SimpleRoundedButton_Example {
+  umbrella header "Pods-SimpleRoundedButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

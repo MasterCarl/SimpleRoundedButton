@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SimpleRoundedButton
+//  MCCustomButton
 //
-//  Created by MasterCarl on 05/07/2017.
+//  Created by MasterCarl on 05/06/2017.
 //  Copyright (c) 2017 MasterCarl. All rights reserved.
 //
 
