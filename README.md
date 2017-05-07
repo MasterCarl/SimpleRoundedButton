@@ -20,6 +20,8 @@ Additionally, SimpleRoudedButton has a simple function to show a UIActivityIndic
 ![Or nicely rounded](/screenshots/animation.gif?raw=true)
 
 ```swift
+import SimpleRoundedButton
+
 button.startAnimating() 
 
 // do some stuff
@@ -39,6 +41,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "SimpleRoundedButton"
 ```
+
+## Usage
+To use SimpleRoundedButton, simply assign SimpleRoundedButton as the custom class in the identity inspector. You need to set class and model.
+
+![Setting the custom class](/screenshots/customClass.png?raw=true)
 
 ## Apps using this control
 
