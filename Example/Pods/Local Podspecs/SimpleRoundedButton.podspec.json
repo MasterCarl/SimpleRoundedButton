@@ -1,7 +1,7 @@
 {
   "name": "SimpleRoundedButton",
   "version": "0.1.0",
-  "summary": "A short description of SimpleRoundedButton.",
+  "summary": "Simple UIButton subclass with support for @IBInspectable attributes and @IBDesignable",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MasterCarl/SimpleRoundedButton",
   "license": {
