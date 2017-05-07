@@ -22,7 +22,7 @@ pod "SimpleRoundedButton"
 
 ## Author
 
-MasterCarl, carl.goedecken@student.hpi.de
+Carl Gödecken, dev@mastercarl.com
 
 ## License
 
