@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SimpleRoundedButton.svg?style=flat)](http://cocoapods.org/pods/SimpleRoundedButton)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleRoundedButton.svg?style=flat)](http://cocoapods.org/pods/SimpleRoundedButton)
 
-**SimpleRoundedButton** is a UIButton subclass that uses *@IBInspectable* attributes to allow easy customization of border properties, colors and corner radius, directly from the Storyboard.
+**SimpleRoundedButton** is a UIButton subclass that uses *@IBInspectable* attributes to allow easy customization of border properties, colors and corner radius, directly from the Storyboard. Inspired by [KBRoundedButton](https://github.com/burczyk/KBRoundedButton), but making use of XCode's *@IBInspectable* feature.
 
 ![XCode properties](/screenshots/xcode.png?raw=true)
 
