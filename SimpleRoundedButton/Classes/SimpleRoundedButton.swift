@@ -82,7 +82,7 @@ open class SimpleRoundedButton: UIButton {
     var activityIndicator: UIActivityIndicatorView? = nil
     
     private func createActivityIndicator() -> UIActivityIndicatorView {
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .white)
+        let activityIndicator = UIActivityIndicatorView(style: .white)
         activityIndicator.hidesWhenStopped = true
         
         // http://stackoverflow.com/questions/30202958/get-center-of-any-uiview-in-swift
